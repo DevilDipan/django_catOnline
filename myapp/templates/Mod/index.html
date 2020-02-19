@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+<html>
+  <head>
+  </head>
+  <body>
+    {% block pagecontent %}
+    <div class="s010">
+      <form>
+        <div class="inner-form">
+          <div class="advance-search">
+            <span class="desc">TL-1 MPS System Information History</span>
+            <div class="row">
+              <div class="input-field">
+                <div class="input-select">
+                  <select data-trigger="" name="choices-single-defaul">
+                    <option placeholder="" value="">Indus</option>
+                    <option>Indus 1</option>
+                    <option>indus 2</option>
+                    <option>indus 3</option>
+                    <option>indus 4</option>
+                    <option>indus 5</option>
+                  </select>
+                </div>
+              </div>
+              <div class="input-field">
+                <div class="input-select">
+                  <select data-trigger="" name="choices-single-defaul">
+                    <option placeholder="" value="">Machine</option>
+                    <option>Machine 1</option>
+                    <option>Machine 2</option>
+                    <option>Machine 3</option>
+                    <option>Machine 4</option>
+                    <option>Machine 5</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row second">
+              <div class="input-field">
+                <div class="input-select">
+                  <select data-trigger="" name="choices-single-defaul">
+                    <option placeholder="" value="">Time</option>
+                    <option>Last time</option>
+                    <option>Today</option>
+                    <option>This week</option>
+                    <option>This month</option>
+                    <option>This year</option>
+                  </select>
+                </div>
+              </div>
+              <div class="input-field">
+                <div class="input-select">
+                  <select data-trigger="" name="choices-single-defaul">
+                    <option placeholder="" value="">Type</option>
+                    <option>Type a</option>
+                    <option>Type b</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row third">
+              <div class="input-field">
+                <div class="result-count">
+                  <span>108 </span>results</div>
+                <div class="group-btn">
+                  <button class="btn-delete" id="delete">RESET</button>
+                  <button class="btn-search">SEARCH</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    {% endblock %}
+  </body>
+</html>
