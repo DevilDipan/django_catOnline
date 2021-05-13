@@ -1,6 +1,6 @@
-# django_catOnline
+# kittyOnline
 
-Django connectivity on catOnline project.
+Django connectivity for backend.
 
 **Note - This is a partial project because of restrictions.**
 
